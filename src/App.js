@@ -4,6 +4,7 @@ import Carousel from './components/Carousel';
 import FistSection from './components/FirstSec';
 import Header from './components/Header'
 import Nav from './components/Nav'
+import News from './components/News';
 import Products from './components/Products';
 
 
@@ -18,6 +19,7 @@ function App() {
       <Nav></Nav>
       <Carousel></Carousel>
       <Products></Products>
+      <News></News>
     </div>
   );
 }
