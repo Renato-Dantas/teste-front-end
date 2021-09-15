@@ -6,8 +6,6 @@
     height: 504px;
     left: -1px;
     top: 175px;
-    border: 1px solid green;
-
     /* background: url(Grupo 3.png); */
 }
 
@@ -62,18 +60,11 @@
     height: 31px;
     left: 336px;
     top: 298px;
-
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 100%;
-    font-size: 13px;
-    /* or 13px */
-
-    letter-spacing: 0.1em;
-
-    color: #000;
     cursor: pointer;
+
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.1em;
 }
 
 .car-line{

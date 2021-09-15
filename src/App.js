@@ -4,6 +4,7 @@ import Carousel from './components/Carousel';
 import FistSection from './components/FirstSec';
 import Header from './components/Header'
 import Nav from './components/Nav'
+import Products from './components/Products';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       </Header>
       <Nav></Nav>
       <Carousel></Carousel>
+      <Products></Products>
     </div>
   );
 }
