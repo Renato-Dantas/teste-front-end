@@ -10,8 +10,6 @@ const Nav = () => {
             <div className="menu3 font-nav">INSTRUMENTOS MUSICAIS</div>
             <div className="menu4 font-nav">PROMOÇÕES</div>       
             <div className="menu5 font-nav">CONTATO</div>
-            
-
         </nav>
      );
 }

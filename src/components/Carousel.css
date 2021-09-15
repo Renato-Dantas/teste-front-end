@@ -1,0 +1,88 @@
+.carousel{
+    width: 1280px;
+    height: 504px;
+    position: absolute;
+    width: 1280px;
+    height: 504px;
+    left: -1px;
+    top: 175px;
+    border: 1px solid green;
+
+    /* background: url(Grupo 3.png); */
+}
+
+.car-font{
+    font-family: Lato;
+    font-style: normal;
+    line-height: 100%;
+    color: black; /*DEVE SER #FFFFFF*/
+}
+
+.car-title1{
+    position: absolute;
+    width: 250px;
+    height: 16px;
+    left: 255px;
+    top: 109px;
+
+    
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.4em; 
+}
+
+.car-title2{
+    position: absolute;
+    width: 414px;
+    height: 47px;
+    left: 166px;
+    top: 145px;
+
+    font-weight: bold;
+    font-size: 47px;
+    letter-spacing: 0.09em;
+
+}
+
+.car-title3{
+    position: absolute;
+    width: 403px;
+    height: 47px;
+    left: 165px;
+    top: 205px;
+
+    font-weight: 300;
+    font-size: 47px;
+    letter-spacing: 0.12em;
+}
+
+.car-title4{
+    position: absolute;
+    width: 111px;
+    height: 31px;
+    left: 336px;
+    top: 298px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 100%;
+    font-size: 13px;
+    /* or 13px */
+
+    letter-spacing: 0.1em;
+
+    color: #000;
+    cursor: pointer;
+}
+
+.car-line{
+    position: absolute;
+    width: 77px;
+    height: 0px;
+    left: 330px;
+    top: 327px;
+
+    border: 1px solid #000;
+
+}
