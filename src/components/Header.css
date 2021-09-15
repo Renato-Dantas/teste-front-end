@@ -1,0 +1,132 @@
+.header{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 77px;
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    width: 180px;
+    height: 28px;
+    left: 140px;
+    /* background: url(Grupo 1504.png); */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.input-search{
+    position: absolute;
+    width: 339px;
+    height: 41px;
+    left: 361px;
+    border: 1px solid #707070;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 16px 27px ;
+    font-size: 9px;
+}
+
+.btn-search{
+    position: absolute;
+    width: 18.98px;
+    height: 18.98px;
+    left: 672px;
+    background: #041E50;
+    border: 0.2px solid #000000;
+}
+
+.phone-ico{
+    position: absolute;
+    width: 21.75px;
+    height: 21.75px;
+    left: 58.49%;
+    right: 39.81%;
+    background-color: #041E50;
+    border: 0.2px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.phone{
+    position: absolute;
+    width: 83px;
+    height: 10px;
+    left: 780px;
+}
+
+.people-ico{
+    width: 18px;
+    height: 20.86px;
+    position: absolute;
+    left: 70.39%;
+    right: 28.2%;
+    background: #041E50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.12px;
+}
+
+.people-head{
+    border: 1px solid white;
+}
+
+.people-body{
+    border: 1px solid white;
+}
+
+.hello{
+    position: absolute;
+    width: 87px;
+    height: 10px;
+    left: 928px;
+    top: 64px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0.09em;
+
+    color: #041E50;
+}
+
+.acount{
+    position: absolute;
+    width: 57px;
+    height: 7px;
+    left: 927px;
+    top: 79px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 7px;
+    line-height: 100%;
+    letter-spacing: 0.09em;
+    color: #041E50;
+
+}
+
+.font-header{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    color: #041E50;
+}
+
+.line-div{
+    position: absolute;
+    width: 1280px;
+    height: 0px;
+    left: 0px;
+    top: 114px;
+    border: 1px solid rgba(120, 117, 117, 0.22);
+}
