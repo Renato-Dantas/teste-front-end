@@ -2,6 +2,7 @@ import './App.css';
 import CarBag from './components/CarBag';
 import FistSection from './components/FirstSec';
 import Header from './components/Header'
+import Nav from './components/Nav'
 
 
 
@@ -12,6 +13,7 @@ function App() {
       <Header>
         <CarBag/>
       </Header>
+      <Nav></Nav>
     </div>
   );
 }

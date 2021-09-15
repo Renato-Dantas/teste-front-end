@@ -14,8 +14,8 @@ const Header = ({children}) => {
             </div>
             <div className="hello font-header">OLÁ, VISITANTE</div>
             <div className="acount">MINHA CONTA</div>
-            {children}
             <div className="line-div"></div>
+            {children}
 
         </header>
     );
