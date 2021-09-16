@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Nav from './components/Nav'
 import News from './components/News';
 import Products from './components/Products';
+import Store from './components/Store'
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Carousel></Carousel>
       <Products></Products>
       <News></News>
+      <Store></Store>
     </div>
   );
 }
