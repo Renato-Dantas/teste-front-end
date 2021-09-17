@@ -59,9 +59,7 @@
     position: absolute;
     width: 5px;
     height: 2.8px;
-    background: #041E50;
-    border: 0.2px solid #041E50;
-    transform: rotate(179.54deg);
+    transform: translateX(180deg);
     cursor: pointer;
 }
 

@@ -1,0 +1,74 @@
+
+.brand-title{
+    position: absolute;
+    width: 324px;
+    height: 25px;
+    left: 477px;
+    top: 2303px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 100%;
+    /* identical to box height, or 25px */
+
+    letter-spacing: 0.1em;
+
+    color: #041E50;
+}
+
+.brand-subtitle{
+    position: absolute;
+    width: 601px;
+    height: 15px;
+    left: 340px;
+    top: 2347px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 100%;
+    /* identical to box height, or 15px */
+
+    letter-spacing: 0.1em;
+
+    color: #A5A5A5;
+}
+
+.brand-container{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: auto;
+    height: 52px;
+    left: 139px;
+    top: 2455px;
+}
+
+
+.brand1{
+    width: 133px;
+    height: 52px;
+    left: 139px;    
+}
+
+.brand2{
+    width: 211px;
+    height: 33px;
+    margin-left: 81px;
+}
+
+.brand3{
+    width: 202px;
+    height: 34px;
+    margin-left: 82px;
+}
+
+.brand4{
+    width: 223px;
+    height: 40px;
+    margin-left: 70px;
+}
+

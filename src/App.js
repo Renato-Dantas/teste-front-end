@@ -7,10 +7,26 @@ import Nav from './components/Nav'
 import News from './components/News';
 import Products from './components/Products';
 import Store from './components/Store'
+import api from '../src/api/api'
+import { useEffect } from 'react';
+import Button from './Button';
+import Branding from './components/Branding';
+import About from './components/About';
+import Comments from './components/Comments';
+import Info from './components/Info';
 
-
+const url = 'https://swapi.dev/api/people/1'
 
 function App() {
+  useEffect(()=>{
+    
+    let request = require('request')
+    request(url, function(error, res, body){
+      console.log(JSON.parse(body))
+    })
+
+  },[])
+
   return (
     <div className='site-area'>
       <FistSection/>
@@ -22,6 +38,11 @@ function App() {
       <Products></Products>
       <News></News>
       <Store></Store>
+      <Button></Button>
+      <Branding></Branding>
+      <About></About>
+      <Comments></Comments>
+      <Info></Info>
     </div>
   );
 }

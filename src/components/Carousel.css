@@ -6,14 +6,14 @@
     height: 504px;
     left: -1px;
     top: 175px;
-    /* background: url(Grupo 3.png); */
+    background: url('../assets/centralCarousel.png');
 }
 
 .car-font{
     font-family: Lato;
     font-style: normal;
     line-height: 100%;
-    color: black; /*DEVE SER #FFFFFF*/
+    color: #FFFFFF 
 }
 
 .car-title1{
@@ -74,6 +74,6 @@
     left: 330px;
     top: 327px;
 
-    border: 1px solid #000;
+    border: 1px solid #FFFFFF;
 
 }

@@ -14,7 +14,7 @@
 .bag-ico{
     width: 22.07px;
     height: 27.35px;
-    background: #FFFFFF;
+    background: url('../assets/bolsa.svg');
 }
 
 .bag-title{
