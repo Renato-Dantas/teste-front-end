@@ -1,14 +1,16 @@
 .button{
-    position: absolute;
+    /* position: absolute; */
     width: 154px;
     height: 52px;
-    left: 556px;
-    top: 2151px;
+    /* left: 556px;
+    top: 2151px; */
     border: 1px solid #041E50;
     box-sizing: border-box;
     border-radius: 5px;
     transition: all .3s;
     cursor: pointer;
+    margin-top: 1993px;
+    margin-left: 556px;
 }
 
 .button:hover{

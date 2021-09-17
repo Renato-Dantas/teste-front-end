@@ -12,7 +12,7 @@ const Store = ({children}) => {
             </div>
 
             <div className="store-showcase">
-
+                {children}
             </div>
 
         </section>

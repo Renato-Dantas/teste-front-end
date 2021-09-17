@@ -7,26 +7,18 @@ import Nav from './components/Nav'
 import News from './components/News';
 import Products from './components/Products';
 import Store from './components/Store'
-import api from '../src/api/api'
-import { useEffect } from 'react';
-import Button from './Button';
+import Button from './components/Button';
 import Branding from './components/Branding';
 import About from './components/About';
 import Comments from './components/Comments';
 import Info from './components/Info';
+import data from './data/products.json'
+import Product from './components/Product'
 
-const url = 'https://swapi.dev/api/people/1'
+const productItem = data.products;
 
 function App() {
-  useEffect(()=>{
-    
-    let request = require('request')
-    request(url, function(error, res, body){
-      console.log(JSON.parse(body))
-    })
-
-  },[])
-
+  
   return (
     <div className='site-area'>
       <FistSection/>
@@ -37,7 +29,11 @@ function App() {
       <Carousel></Carousel>
       <Products></Products>
       <News></News>
-      <Store></Store>
+      <Store>
+        {productItem.map((prod,id)=>{
+          return <Product key={id} name={productItem[id].productName} description ={productItem[id].descriptionShort} photo = {productItem[id].photo} price = {`R$ ${productItem[id].price /100}` }></Product>
+        })}
+      </Store>
       <Button></Button>
       <Branding></Branding>
       <About></About>

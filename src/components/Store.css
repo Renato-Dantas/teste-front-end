@@ -50,8 +50,13 @@
 }
 
 .store-showcase{
-    margin-top: 85px;
+    margin-top: 53px;
     width: 1280px;
-    height: 500px;
-    border: 1px solid red;
+    height: 694px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 13px;
+    overflow:hidden;
+    position: relative;
 }
