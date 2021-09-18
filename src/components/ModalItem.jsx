@@ -1,10 +1,11 @@
 import './ModalItem.css'
+import close from '../assets/close.svg'
 
 const ModalItem = ({name, description, photo, price, onClose}) => {
 
     return (
         <div>
-            <button className="modal-close-btn" onClick={onClose}>X</button>
+            <button className="modal-close-btn" onClick={onClose}><img src={close}/></button>
             <img className='modal-img' src={photo} alt={name} />
             <h2 className='modal-name'>{name}</h2>
             <h2 className='modal-price'>{price}</h2>

@@ -109,11 +109,11 @@
     height: 22.63px;
     left: 721px;
     top:20.07px;
-    border: 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border: none;
 }
 
 
