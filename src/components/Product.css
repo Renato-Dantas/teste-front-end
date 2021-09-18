@@ -6,6 +6,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.prod-item:hover{
+    box-shadow:
+    0 0 1px #ddd, 
+    0 0 0 2px rgb(255,255,255),
+    .3em .3em 1em rgba(0,0,0,0.3);
+    border-radius: 5px;
 }
 
 .prod-img{
