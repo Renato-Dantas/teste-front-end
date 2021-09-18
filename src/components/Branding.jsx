@@ -7,8 +7,8 @@ import brand4 from '../assets/brand4.png'
 const Branding = () => {
     return ( 
         <section className='brand-sec'>
-            <h2 className='brand-title'>AS MELHORES MARCAS</h2>
-            <h4 className='brand-subtitle'>it is a long established fact that a reader will be destracted by the readable</h4>
+            <h2 className='brand-title brand-font'>AS MELHORES MARCAS</h2>
+            <h4 className='brand-subtitle brand-font'>it is a long established fact that a reader will be destracted by the readable</h4>
             <div className="brand-container">
                 <img className="brand1" src={brand1} alt='AKG brand'/>
                 <img className="brand2" src={brand2} alt='Roland brand'/>

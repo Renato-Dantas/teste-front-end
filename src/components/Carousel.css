@@ -1,107 +1,106 @@
-.carousel{
-    width: 1280px;
-    height: 504px;
-    position: absolute;
-    width: 1280px;
-    height: 504px;
-    left: -1px;
-    top: 175px;
-    background: url('../assets/centralCarousel.png');
+.carousel {
+  width: 1280px;
+  height: 504px;
+  position: absolute;
+  width: 1280px;
+  height: 504px;
+  left: -1px;
+  top: 175px;
+  background: url("../assets/centralCarousel.png");
 }
 
-.car-font{
-    font-family: Lato;
-    font-style: normal;
-    line-height: 100%;
-    color: #FFFFFF 
+.car-font {
+  font-family: Lato;
+  font-style: normal;
+  line-height: 100%;
+  color: #ffffff;
 }
 
-.car-title1{
-    position: absolute;
-    width: 250px;
-    height: 16px;
-    left: 255px;
-    top: 109px;
+.car-title1 {
+  position: absolute;
+  width: 250px;
+  height: 16px;
+  left: 255px;
+  top: 109px;
 
-    
-    font-weight: 300;
-    font-size: 16px;
-    letter-spacing: 0.4em; 
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.4em;
 }
 
-.car-title2{
-    position: absolute;
-    width: 414px;
-    height: 47px;
-    left: 166px;
-    top: 145px;
+.car-title2 {
+  position: absolute;
+  width: 414px;
+  height: 47px;
+  left: 166px;
+  top: 145px;
 
-    font-weight: bold;
-    font-size: 47px;
-    letter-spacing: 0.09em;
+  font-weight: bold;
+  font-size: 47px;
+  letter-spacing: 0.09em;
 }
 
-.car-title3{
-    position: absolute;
-    width: 403px;
-    height: 47px;
-    left: 165px;
-    top: 205px;
+.car-title3 {
+  position: absolute;
+  width: 403px;
+  height: 47px;
+  left: 165px;
+  top: 205px;
 
-    font-weight: 300;
-    font-size: 47px;
-    letter-spacing: 0.12em;
+  font-weight: 300;
+  font-size: 47px;
+  letter-spacing: 0.12em;
 }
 
-.car-title4{
-    position: absolute;
-    width: 111px;
-    height: 31px;
-    left: 336px;
-    top: 298px;
-    cursor: pointer;
+.car-title4 {
+  position: absolute;
+  width: 111px;
+  height: 31px;
+  left: 336px;
+  top: 298px;
+  cursor: pointer;
 
-    font-weight: normal;
-    font-size: 13px;
-    letter-spacing: 0.1em;
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0.1em;
 }
 
-.car-line{
-    position: absolute;
-    width: 77px;
-    height: 0px;
-    left: 330px;
-    top: 327px;
-    border: 1px solid #FFFFFF;
+.car-line {
+  position: absolute;
+  width: 77px;
+  height: 0px;
+  left: 330px;
+  top: 327px;
+  border: 1px solid #ffffff;
 }
 
-.points{
-    width: 136px;
-    height: 12px;
-    margin: 189.81px auto;
-    display: flex;
-    justify-content: space-between;
+.points {
+  width: 136px;
+  height: 12px;
+  margin: 189.81px auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-.point{
-    width: 12px;
-    height: 12px;
-    border: 0.8px solid #FFFFFF;
-    border-radius: 50%;
-    box-sizing: border-box;
+.point {
+  width: 12px;
+  height: 12px;
+  border: 0.8px solid #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
 }
 
-.pnt-center{
-    background-color: #FFFFFF;
+.pnt-center {
+  background-color: #ffffff;
 }
 
-.prev{
-    margin-left: 40px;
-    margin-top: 194px;
+.prev {
+  margin-left: 40px;
+  margin-top: 194px;
 }
 
-.next{
-    margin-left: 1225.62px;
-    transform: translateY(-50%);
-    margin-top: -40px;
+.next {
+  margin-left: 1225.62px;
+  transform: translateY(-50%);
+  margin-top: -40px;
 }

@@ -1,74 +1,74 @@
-.nav-section{
-    height: 61px;
-    width: 1280px;
-    display: flex;
+.nav-section {
+  height: 61px;
+  width: 1280px;
+  display: flex;
 }
 
-.font-nav{
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 100%;
-    letter-spacing: 0.09em;
-    color: #041E50;
-    cursor: pointer;
+.font-nav {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 0.09em;
+  color: #041e50;
+  cursor: pointer;
 }
 
-.menu1{
-    position: absolute;
-    width: 129px;
-    height: 10px;
-    left: 140px;
-    top: 128px;
+.menu1 {
+  position: absolute;
+  width: 129px;
+  height: 10px;
+  left: 140px;
+  top: 128px;
 }
 
-.menu2{
-    position: absolute;
-    width: 111px;
-    height: 10px;
-    left: 352px;
-    top: 128px;
+.menu2 {
+  position: absolute;
+  width: 111px;
+  height: 10px;
+  left: 352px;
+  top: 128px;
 }
 
-.menu3{
-    position: absolute;
-    width: 146px;
-    height: 10px;
-    left: 555px;
-    top: 128px;
+.menu3 {
+  position: absolute;
+  width: 146px;
+  height: 10px;
+  left: 555px;
+  top: 128px;
 }
 
-.menu4{
-    position: absolute;
-    width: 72px;
-    height: 10px;
-    left: 794px;
-    top: 128px;
+.menu4 {
+  position: absolute;
+  width: 72px;
+  height: 10px;
+  left: 794px;
+  top: 128px;
 }
 
-.menu5{
-    position: absolute;
-    width: 53px;
-    height: 10px;
-    left: 949px;
-    top: 128px;
+.menu5 {
+  position: absolute;
+  width: 53px;
+  height: 10px;
+  left: 949px;
+  top: 128px;
 }
 
-.menu-ico{
-    position: absolute;
-    width: 5px;
-    height: 2.8px;
-    transform: translateX(180deg);
-    cursor: pointer;
+.menu-ico {
+  position: absolute;
+  width: 5px;
+  height: 2.8px;
+  transform: translateX(180deg);
+  cursor: pointer;
 }
 
-.ico1{
-    left: 271px;
-    top: 132px;
+.ico1 {
+  left: 271px;
+  top: 132px;
 }
 
-.ico2{
-    left: 464px;
-    top: 132px;
+.ico2 {
+  left: 464px;
+  top: 132px;
 }

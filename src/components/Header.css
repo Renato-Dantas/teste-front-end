@@ -1,128 +1,119 @@
-.header{
-    margin: auto;
-    display: flex;
-    align-items: center;
-    height: 77px;
-    width: 100%;
+.header {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 77px;
+  width: 100%;
 }
 
-.logo{
-    position: absolute;
-    width: 180px;
-    height: 28px;
-    left: 140px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    display: flex;
-    justify-content: center;
+.logo {
+  position: absolute;
+  width: 180px;
+  height: 28px;
+  left: 140px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  justify-content: center;
 }
 
-.input-search{
-    position: absolute;
-    width: 339px;
-    height: 41px;
-    left: 361px;
-    border: 1px solid #707070;
-    box-sizing: border-box;
-    border-radius: 4px;
-    padding: 16px 27px ;
-    font-size: 9px;
+.input-search {
+  position: absolute;
+  width: 339px;
+  height: 41px;
+  left: 361px;
+  border: 1px solid #707070;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 16px 27px;
+  font-size: 9px;
 }
 
-.btn-search{
-    position: absolute;
-    width: 18.98px;
-    height: 18.98px;
-    left: 672px;
-    background:url('../assets/lupa.png');
-    background-size: cover;
-    border: none;
-    cursor: pointer;
+.btn-search {
+  position: absolute;
+  width: 18.98px;
+  height: 18.98px;
+  left: 672px;
+  background: url("../assets/lupa.png");
+  background-size: cover;
+  border: none;
+  cursor: pointer;
 }
 
-.phone-ico{
-    position: absolute;
-    width: 21.75px;
-    height: 21.75px;
-    left: 58.49%;
-    right: 39.81%;
-    background: url('../assets/phone.svg');
-    background-size: cover;
-    border: 0.2px solid #FFFFFF;
-    box-sizing: border-box;
+.phone-ico {
+  position: absolute;
+  width: 21.75px;
+  height: 21.75px;
+  left: 58.49%;
+  right: 39.81%;
+  background: url("../assets/phone.svg");
+  background-size: cover;
+  border: 0.2px solid #ffffff;
+  box-sizing: border-box;
 }
 
-.phone{
-    position: absolute;
-    width: 83px;
-    height: 10px;
-    left: 780px;
+.phone {
+  position: absolute;
+  width: 83px;
+  height: 10px;
+  left: 780px;
+
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 10px;
 }
 
-.people-ico{
-    width: 18px;
-    height: 20.86px;
-    position: absolute;
-    left: 70.39%;
-    right: 28.2%;
-    background: #041E50;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.12px;
-    background: url('../assets/boneco.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
+.people-ico {
+  width: 18px;
+  height: 20.86px;
+  position: absolute;
+  left: 70.39%;
+  right: 28.2%;
+  background: #041e50;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.12px;
+  background: url("../assets/boneco.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.hello{
-    position: absolute;
-    width: 87px;
-    height: 10px;
-    left: 928px;
-    top: 64px;
-
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 100%;
-    letter-spacing: 0.09em;
-
-    color: #041E50;
+.header-font {
+  font-family: Lato;
+  font-style: normal;
+  line-height: 100%;
+  color: #041e50;
 }
 
-.acount{
-    position: absolute;
-    width: 57px;
-    height: 7px;
-    left: 927px;
-    top: 79px;
+.hello {
+  position: absolute;
+  width: 87px;
+  height: 10px;
+  left: 928px;
+  top: 64px;
 
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 7px;
-    line-height: 100%;
-    letter-spacing: 0.09em;
-    color: #041E50;
-
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 0.09em;
 }
 
-.font-header{
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 100%;
-    letter-spacing: 0.05em;
-    color: #041E50;
+.acount {
+  position: absolute;
+  width: 57px;
+  height: 7px;
+  left: 927px;
+  top: 79px;
+
+  font-weight: bold;
+  font-size: 7px;
+  letter-spacing: 0.09em;
 }
 
-.line-div{
-    position: absolute;
-    width: 1280px;
-    height: 0px;
-    left: 0px;
-    top: 114px;
-    border: 1px solid rgba(120, 117, 117, 0.22);
+.line-div {
+  position: absolute;
+  width: 1280px;
+  height: 0px;
+  left: 0px;
+  top: 114px;
+  border: 1px solid rgba(120, 117, 117, 0.22);
 }
