@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/teste-front-end/static/css/main.294d739d.chunk.css",
+    "main.js": "/teste-front-end/static/js/main.28c5da06.chunk.js",
+    "main.js.map": "/teste-front-end/static/js/main.28c5da06.chunk.js.map",
+    "runtime-main.js": "/teste-front-end/static/js/runtime-main.93a3731a.js",
+    "runtime-main.js.map": "/teste-front-end/static/js/runtime-main.93a3731a.js.map",
+    "static/js/2.da8ac61e.chunk.js": "/teste-front-end/static/js/2.da8ac61e.chunk.js",
+    "static/js/2.da8ac61e.chunk.js.map": "/teste-front-end/static/js/2.da8ac61e.chunk.js.map",
+    "index.html": "/teste-front-end/index.html",
+    "static/css/main.294d739d.chunk.css.map": "/teste-front-end/static/css/main.294d739d.chunk.css.map",
+    "static/js/2.da8ac61e.chunk.js.LICENSE.txt": "/teste-front-end/static/js/2.da8ac61e.chunk.js.LICENSE.txt",
+    "static/media/acousticGuitar.6fc82fe9.png": "/teste-front-end/static/media/acousticGuitar.6fc82fe9.png",
+    "static/media/board.41abb246.png": "/teste-front-end/static/media/board.41abb246.png",
+    "static/media/CarBag.css": "/teste-front-end/static/media/bolsa.85726043.svg",
+    "static/media/Header.css": "/teste-front-end/static/media/phone.8a2b902d.svg",
+    "static/media/Carousel.css": "/teste-front-end/static/media/centralCarousel.2b3aef93.png",
+    "static/media/close.244b6687.svg": "/teste-front-end/static/media/close.244b6687.svg",
+    "static/media/drums.de25a30f.png": "/teste-front-end/static/media/drums.de25a30f.png",
+    "static/media/guita.3dbb4bad.png": "/teste-front-end/static/media/guita.3dbb4bad.png",
+    "static/media/keyboard.cfa6c007.png": "/teste-front-end/static/media/keyboard.cfa6c007.png",
+    "static/media/logo.e08e34b7.svg": "/teste-front-end/static/media/logo.e08e34b7.svg",
+    "static/media/mic.cca946bb.png": "/teste-front-end/static/media/mic.cca946bb.png",
+    "static/media/News.css": "/teste-front-end/static/media/news2.847b3521.png",
+    "static/media/porcentagem.14d35765.svg": "/teste-front-end/static/media/porcentagem.14d35765.svg",
+    "static/media/seta.78669e2f.svg": "/teste-front-end/static/media/seta.78669e2f.svg",
+    "static/media/truck.2a6ea738.svg": "/teste-front-end/static/media/truck.2a6ea738.svg",
+    "static/media/Product.css": "/teste-front-end/static/media/white-lupa.b8be5f77.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93a3731a.js",
+    "static/js/2.da8ac61e.chunk.js",
+    "static/css/main.294d739d.chunk.css",
+    "static/js/main.28c5da06.chunk.js"
+  ]
+}
